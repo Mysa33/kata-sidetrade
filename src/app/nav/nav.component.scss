@@ -1,0 +1,29 @@
+@import "../main";
+.nav-custom{
+    ul{
+        display: table-cell;
+        li{
+            display: table-cell;
+            padding-right : 15px;
+            a, i{
+                display: table-cell;
+                line-height: 48px;
+                vertical-align: middle;
+                font-size:1.2em;
+                font-weight:500;
+                text-decoration: none!important;
+            }
+            a.home-link{ 
+                color:$main-txt-color!important;
+            }
+        }
+    }
+    .nav-link{
+        a.custom-link-icon{
+            i{
+                color:#43b8d0!important;
+            }
+        }
+        
+    }
+}

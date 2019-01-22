@@ -1,0 +1,38 @@
+@import "../main";
+.entreprise-container{
+    margin-top:30px;
+    h4.page-title{
+        color:$main-txt-color!important;
+    }
+    .naf-label{
+        margin-left:5px;
+    }
+    .company-infos{
+        margin-top:50px;
+        .col-lg-12{
+            margin-top:10px;
+            margin-bottom:5px;
+        }
+        span.company-data {
+           padding-left : 5px; 
+        }
+        span.company-title {
+            font-size :1.25em;
+            font-weight: 500;
+            color:$main-txt-color!important;
+
+        }
+        .company-description{
+            margin-top:10px;
+        }
+    }
+    .company-img{
+        margin-top:50px;
+        img{
+            width:90%;
+            height: auto;
+            border: 0.5px solid #efefef;
+            border-radius: 50%;
+        }
+    }
+}

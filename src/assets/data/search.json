@@ -1,0 +1,402 @@
+{
+  "total": 20,
+  "results": [
+    {
+      "country": "FR",
+      "naf": {
+        "id": "2120Z",
+        "label": "Fabrication de préparations pharmaceutiques"
+      },
+      "officialName": "BIOMERIEUX SA",
+      "address": {
+        "city": "MARCY L ETOILE",
+        "secondLevelId": "FR-69"
+      },
+      "profilePictureUrl": "https://kolinkis.com/wp-content/uploads/2018/07/logo-biomerieux-1-300x300.jpeg",
+      "data": {
+        "revenue": 98565,
+        "employees": 45
+      },
+      "companyId": "FR-673620399",
+      "description": "bioMérieux France | Pioneering diagnostics - Solutions de diagnostic qui déterminent l'origine d'une maladie ou d'une contamination pour améliorer la santé des patients et assurer la sécurité des consommateurs.",
+      "commercialName": "BIOMERIEUX"
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "7010Z",
+        "label": "Activités des sièges sociaux"
+      },
+      "officialName": "SANOFI-AVENTIS GROUPE",
+      "address": {
+        "city": "PARIS",
+        "secondLevelId": "FR-75"
+      },
+      "profilePictureUrl": "http://pbs.twimg.com/profile_images/1007277104067735552/16EQz5tn.jpg",
+      "data": {
+        "revenue": 1684,
+        "employees": 4
+      },
+      "companyId": "FR-403335938",
+      "description": "Nous accompagnons des millions de personnes au quotidien dans leur parcours de santé. https://t.co/EQ4PXI8Dqc",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "3320A",
+        "label": "Installation de structures métalliques, chaudronnées et de tuyauterie"
+      },
+      "officialName": "PONTICELLI FRERES",
+      "address": {
+        "city": "PARIS",
+        "secondLevelId": "FR-75"
+      },
+      "profilePictureUrl": "http://media.energie-industrie.com/Logosociete/logo_PONTICELLI_613778.gif",
+      "data": {
+        "revenue": 984156,
+        "employees": 695
+      },
+      "companyId": "FR-562036624",
+      "description": "Services pour l'industrie, l'énergie et l'environnement.",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "4719A",
+        "label": "Grands magasins"
+      },
+      "officialName": "GALERIES LAFAYETTE HAUSSMANN - GL HAUSSMANN",
+      "address": {
+        "city": "PARIS",
+        "secondLevelId": "FR-75"
+      },
+      "profilePictureUrl": "http://pbs.twimg.com/profile_images/809060301920419840/xELXZXtY.jpg",
+      "data": {
+        "revenue": 54715,
+        "employees": 12
+      },
+      "companyId": "FR-572062594",
+      "description": "Qui êtes-vous ?   Je m'appelle Nadia Deriche, j'ai 27 ans, et je suis originaire d'Antibes. Je suis diplômée d'un Master 1 de l'Ecole Supérieure de Commerce Espeme du Groupe EDHEC. Et j'ai complété ma formation en 2008 par un Master 2 spécialisé en Marketing et Management du Luxe à l'ISML (Institut Supérieur de Marketing du Luxe à Paris).",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "5221Z",
+        "label": "Services auxiliaires des transports terrestres"
+      },
+      "officialName": "STE CONCESSIONNAIRE FRANCAISE PR LA CONSTRUCTION ET L'EXPLOITATION DU TUNNEL ROUTIER SOUS LE MT BLANC",
+      "address": {
+        "city": "PARIS",
+        "secondLevelId": "FR-75"
+      },
+      "profilePictureUrl": "http://pbs.twimg.com/profile_images/906097841109643264/g-GaSvnA.jpg",
+      "data": {
+        "revenue": 891654,
+        "employees": 69
+      },
+      "companyId": "FR-582056511",
+      "description": "Info-trafic, Tarifs autoroute, Badge Télépéage : découvrez les offres et services d'ATMB pour l'Autoroute A40 & le Tunnel du Mont-Blanc et gagnez du temps !",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "7010Z",
+        "label": "Activités des sièges sociaux"
+      },
+      "officialName": "TECHNIP",
+      "address": {
+        "city": "PARIS",
+        "secondLevelId": "FR-75"
+      },
+      "profilePictureUrl": "https://d2ojpxxtu63wzl.cloudfront.net/static/66b2f6112fbe739c088acbbbbe17d210_4a48fdc0989559ab07abc1503048894bf86e8fed572dc26b886934d5034aaf2e",
+      "data": {
+        "revenue": 68465,
+        "employees": 564
+      },
+      "companyId": "FR-589803261",
+      "description": "Coflexip® Onshore Applications Technip is the world's leading company for the conceptual design, engineering and manufacture of in-tank flexible pipe systems. The Coflexip® drain and rim fire protection systems are well known in the industry and have been installed in thousands of storage tanks worldwide.",
+      "commercialName": "TECHNIP"
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "2751Z",
+        "label": "Fabrication d'appareils électroménagers"
+      },
+      "officialName": "ELECTROLUX HOME PRODUCTS FRANCE",
+      "address": {
+        "city": "SENLIS",
+        "secondLevelId": "FR-60"
+      },
+      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/21730830_1814214551926401_885195491138838853_n.png?_nc_cat=0&oh=83bf70fc3f421ada4eaf71704b609c3b&oe=5BF84471",
+      "data": {
+        "revenue": 5614645,
+        "employees": 30
+      },
+      "companyId": "FR-552042285",
+      "description": "Bienvenue sur la page Facebook d'Electrolux, un endroit où vous pourrez trouver et partager des idées sur la cuisine, la maison, le design, les loisirs et le développement durable.",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "7112B",
+        "label": "Ingénierie, études techniques"
+      },
+      "officialName": "ALTEN SUD OUEST",
+      "address": {
+        "city": "LABEGE",
+        "secondLevelId": "FR-31"
+      },
+      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/69620_426467457429648_2034965339_n.png?_nc_cat=0&oh=503da564b2aab0dbedad05138b74aa6d&oe=5B2F6442",
+      "data": {
+        "revenue": 864563,
+        "employees": 2406
+      },
+      "companyId": "FR-404191447",
+      "description": "Le groupe ALTEN s'est construit depuis 30 ans autour du métier de l'ingénieur, et en premier lieu sur l'expertise dans les métiers de l'étude et de la conception. C'est donc naturellement que nos consultants ont démontré pour le secteur nucléaire leur excellence dans la conception des réacteurs EPR, et dans le développement des futurs projets EPR2.",
+      "commercialName": "ALTEN SO"
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "4213A",
+        "label": "Construction d'ouvrages d'art"
+      },
+      "officialName": "MATIERE",
+      "address": {
+        "city": "PARIS",
+        "secondLevelId": "FR-75"
+      },
+      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/14729117_1839553282946070_9101025069752600518_n.jpg?_nc_cat=0&oh=474299ace25453a42e2ce84268cbec71&oe=5BF6643A",
+      "data": {
+        "revenue": 65484940,
+        "employees": 8541
+      },
+      "companyId": "FR-326624244",
+      "description": "L'entreprise Matière est spécialisée dans la réalisation d'ouvrages à travers le monde. Constructeur de pont depuis 1932, Matière est aujourd'hui reconnu pour son savoir-faire et son expertise.",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "4511Z",
+        "label": "Commerce de voitures et de véhicules automobiles légers"
+      },
+      "officialName": "PORSCHE FRANCE",
+      "address": {
+        "city": "ROISSY EN FRANCE",
+        "secondLevelId": "FR-95"
+      },
+      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/26231167_10156667064822668_1669051942872500329_n.jpg?_nc_cat=1&oh=828f41d5a8dbf47fbe5dcea876ca8212&oe=5BF39CAE",
+      "data": {
+        "revenue": 156748,
+        "employees": 30
+      },
+      "companyId": "FR-348567504",
+      "description": "This Fan Page is dedicated to you - Porsche enthusiasts and fans all over the world. We encourage you to share your opinion with us. \nPlease note: Comments or links must be related to Porsche and comply with the Terms and Conditions of Facebook. The Comments posted to this Fan Page do not represent the opinions of Porsche Cars North America .",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "7820Z",
+        "label": "Activités des agences de travail temporaire"
+      },
+      "officialName": "KELLY SERVICES",
+      "address": {
+        "city": "PUTEAUX",
+        "secondLevelId": "FR-92"
+      },
+      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/11694108_10153448594667954_6635624993591156997_n.jpg?_nc_cat=0&oh=df0ad6beb52a5bd09035e314193a9622&oe=5B5C6ECC",
+      "data": {
+        "revenue": 389940,
+        "employees": 47
+      },
+      "companyId": "FR-311305650",
+      "description": "Looking for a more convenient way to manage your job search? Search for and apply to jobs whenever and wherever you want with our app. Available on Apple® and Android® devices, you now have access to the latest jobs and career advice right at your fingertips.",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "2651B",
+        "label": "Fabrication d'instrumentation scientifique et technique"
+      },
+      "officialName": "SERCEL",
+      "address": {
+        "city": "CARQUEFOU",
+        "secondLevelId": "FR-44"
+      },
+      "profilePictureUrl": null,
+      "data": {
+        "revenue": 346856541940,
+        "employees": 9877
+      },
+      "companyId": "FR-378040497",
+      "description": "Sercel is the world's leading designer and manufacturer of innovative seismic equipment and reservoir monitoring instruments. Sercel provides the widest range of leading-edge technologies for exploration.",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "4671Z",
+        "label": "Commerce de gros (commerce interentreprises) de combustibles et de produits annexes"
+      },
+      "officialName": "SOCIETE PRODUITS PETROLIERS STELA",
+      "address": {
+        "city": "ALBI",
+        "secondLevelId": "FR-81"
+      },
+      "profilePictureUrl": null,
+      "data": {
+        "revenue": 0,
+        "employees": 9
+      },
+      "companyId": "FR-086120045",
+      "description": "Vente de produits pétroliers.",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "4671Z",
+        "label": "Commerce de gros (commerce interentreprises) de combustibles et de produits annexes"
+      },
+      "officialName": "SOCIETE D IMPORTATION LECLERC",
+      "address": {
+        "city": "IVRY SUR SEINE",
+        "secondLevelId": "FR-94"
+      },
+      "profilePictureUrl": null,
+      "data": {
+        "revenue": 150,
+        "employees": 10
+      },
+      "companyId": "FR-315281113",
+      "description": "SIPLEC is part of the E.LECLERC Group, one of France's leading food, manufactured goods and fuels retailers. Discover our import activities.",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "2740Z",
+        "label": "Fabrication d'appareils d'éclairage électrique"
+      },
+      "officialName": "MAQUET SAS",
+      "address": null,
+      "profilePictureUrl": null,
+      "data": {
+        "revenue": 126984,
+        "employees": 78
+      },
+      "companyId": "FR-311844229",
+      "description": "Avec son assistance client complète, son apprentissage en ligne et ses services de diagnostic, Maquet est « The Gold Standard » des soins de santé.",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "4619A",
+        "label": "Centrales d'achat non alimentaires"
+      },
+      "officialName": "SYSTEME U CENTRALE NATIONALE",
+      "address": {
+        "city": "RUNGIS",
+        "secondLevelId": "FR-94"
+      },
+      "profilePictureUrl": "http://pbs.twimg.com/profile_images/684767095507271680/CKFZtgvF.png",
+      "data": {
+        "revenue": 56940,
+        "employees": 32
+      },
+      "companyId": "FR-304602956",
+      "description": "Quiche, fuseaux ou chaudins lorrains : des spécialités locales fabriquées par les producteurs de la région disponibles dans les magasins U.",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "4638B",
+        "label": "Commerce de gros (commerce interentreprises) alimentaire spécialisé divers"
+      },
+      "officialName": "ROYAL CANIN FRANCE",
+      "address": {
+        "city": "AIMARGUES",
+        "secondLevelId": "FR-30"
+      },
+      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/13174103_618259444998036_3360697735046354517_n.png?_nc_cat=0&oh=b1fa2950b71c6aa6b6a5d20ce96be659&oe=5C3B9C94",
+      "data": {
+        "revenue": 3468940,
+        "employees": 84
+      },
+      "companyId": "FR-380824888",
+      "description": "Découvrez le site de Royal Canin France, spécialiste en alimentation chat et chien : conseils pour les chats, guides pour chiens, tout sur la nutrition canine et féline selon les spécificités de l'animal",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "4634Z",
+        "label": "Commerce de gros (commerce interentreprises) de boissons"
+      },
+      "officialName": "FRANCE BOISSONS LOIRE SUD-OUEST",
+      "address": {
+        "city": "BEYCHAC ET CAILLAU",
+        "secondLevelId": "FR-33"
+      },
+      "profilePictureUrl": "http://pbs.twimg.com/profile_images/918394626201018368/TV6v6Njf.jpg",
+      "data": {
+        "revenue": 346856940,
+        "employees": 143
+      },
+      "companyId": "FR-322969247",
+      "description": "Service en tête propose à ses adhérents un programme qu'ils s'engagent à respecter grâce à l'accompagnement personnalisé d'un expert qui les conseille",
+      "commercialName": null
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "5813Z",
+        "label": "Édition de journaux"
+      },
+      "officialName": "LE PARISIEN LIBERE",
+      "address": {
+        "city": "ST OUEN",
+        "secondLevelId": "FR-93"
+      },
+      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/11229765_873842952698105_479045590626038757_n.png?_nc_cat=0&oh=a6a867abe65ddf323bfa6af7d0cc32f7&oe=5B767851",
+      "data": {
+        "revenue": 15643,
+        "employees": 3
+      },
+      "companyId": "FR-332890359",
+      "description": "interviews de chefs d'entreprises qui s'engagent pour l'environnement, les solutions issues des travaux et débats du comité \"Solutions COP21\"",
+      "commercialName": "LE PARISIEN LIBERE"
+    },
+    {
+      "country": "FR",
+      "naf": {
+        "id": "2059Z",
+        "label": "Fabrication d'autres produits chimiques n.c.a."
+      },
+      "officialName": "KONICA MINOLTA SUPPLIES MANUFACTURING FRANCE SAS",
+      "address": {
+        "city": "ELOYES",
+        "secondLevelId": "FR-88"
+      },
+      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/14457534_1209239439119157_7294808617016880892_n.png?_nc_cat=0&oh=cef8526cd0e2f47dace2c4cd5f4915b7&oe=5B58DD75",
+      "data": {
+        "revenue": 346856940,
+        "employees": 78
+      },
+      "companyId": "FR-353361348",
+      "description": "Konica Minolta is a leading supplier of industrial inkjet printheads, inks and textile printer to commercial printing and industrial manufacturing markets.",
+      "commercialName": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+@import "../main";
+.home-container{
+    margin-top: 30px;
+    .search-row{
+        margin-top: 10px;
+        margin-bottom:30px;
+        .input-group{
+            .input-group-append{
+                .input-group-text{
+                    background-color:$main-btn-bg;
+                    i.material-icons{
+                        color:#ffffff;
+                    }
+                }
+            }
+        }
+        .btn-wrapper{
+            i{
+                font-size:1.8em;
+                color:$main-color;
+                border: .25px solid #ffffff!important;
+                border-radius:50%;
+                box-shadow: 0px 2px 4px 1px rgba(0,0,0,.2);
+            }
+            .btn-icon{
+                margin-left:10px;
+            }
+            i:hover {
+                color: $hover-color;
+                cursor: pointer;
+                box-shadow: none;
+            }
+        }
+    }
+    .entreprises-row{
+        .card{
+            margin-bottom : 15px!important;
+            img{
+                border-bottom: 1px solid #efefef;
+            }
+            .card-body {
+                h5.card-title{
+                    color: $main-txt-color;
+                }
+                a{
+                    display: flex;
+                    width:65%;
+                    align-items: stretch;
+                    text-decoration:none;
+                    color:#ffffff;
+                    background-color:$main-btn-bg;
+                    box-shadow: 0px 2px 4px 1px rgba(0,0,0,.2);
+                }
+                a:hover{
+                    display: flex;
+                    width:65%;
+                    align-items: stretch;
+                    text-decoration:none;
+                    background-color:$sec-btn-bg;  
+                }
+            }
+        }
+    }
+}
