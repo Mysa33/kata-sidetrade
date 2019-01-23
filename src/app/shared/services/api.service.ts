@@ -6,12 +6,12 @@ import { HttpClient, HttpErrorResponse  } from '@angular/common/http';
 })
 export class ApiService {
 
-  private _url : string = "assets/data/search.json";
+  public url : string = "assets/data/search.json";
 
   constructor( private _http:HttpClient ) { }
   
   getData() {
-    return this._http.get(this._url);
+    return this._http.get(this.url);
   }
 
 }

@@ -24,8 +24,6 @@ Import Google Material
     font-feature-settings: 'liga';
 }
 /**/
-.header-wrapper{
-    .home-container{
-        margin-top:30px;
-    }
+.container-fluid .header-wrapper{
+    padding:0px!important;
 }

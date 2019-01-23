@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Router, ActivatedRoute, Params} from '@angular/router';
+
 import { DataShareService } from '../shared/services/data-share.service';
+
 @Component({
   selector: 'app-entreprise',
   template: `
@@ -54,30 +56,27 @@ import { DataShareService } from '../shared/services/data-share.service';
 export class EntrepriseComponent implements OnInit {
   
   public id: string;
-  public data:any[];
+  public data:any[] ;
   public item:any[];
 
   constructor(private _route: ActivatedRoute, private _shareData:DataShareService) { }
 
   ngOnInit() {
-    this.setItem (this.data, this.item, this.id)
+
+    this.setItem (this.data, this.item, this.id);
+
   }
 
   setItem (data:any[], item:any[], id:string) {
 
     this.id = this._route.snapshot.paramMap.get('id');
     this.data = this._shareData.storage;
-    this.findItem (this.data, this.item, this.id);
-
-  }
-  
-  findItem (data:any[], item:any[], id:string):any[] {
-
     var elementIndex = this.data.map(x =>{return x.companyId; }).indexOf(this.id);
     this.item = this.data[elementIndex];
-    console.log("item :", this.item);
+    //console.log("item :", this.item);
     return this.item;
 
   }
+  
 
 }

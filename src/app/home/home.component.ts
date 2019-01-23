@@ -38,7 +38,7 @@ import { DataShareService } from '../shared/services/data-share.service';
 
       <div class="row entreprises-row">
 
-        <div class="col-lg-4" *ngFor="let item of  dataJson | filterData: queryString : 'officialName' | slice:0:itemsNb; let i = index">
+        <div class="col-lg-4 company-wrapper" *ngFor="let item of  dataJson | filterData: queryString : 'officialName' | slice:0:itemsNb; let i = index">
           <div class="card" style="width: 18rem;" >
             <img src="{{item.profilePictureUrl}}" class="card-img-top" alt="{{item.officialName}}">
             <div class="card-body">
@@ -75,7 +75,7 @@ export class HomeComponent implements OnInit {
 
   }
   
-  getData(){
+  getData():any{
 
     this._dataService.getData().subscribe(
       data =>{

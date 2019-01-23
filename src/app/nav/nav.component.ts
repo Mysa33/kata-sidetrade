@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
         <li class="nav-item active">
           <a class="nav-link custom-link-icon" routerLink="/home">
             <i class="material-icons" style="font-size: 1.6em!important;font-weight: 200!important;color:#43b8d0!important;">
-              account_balance
+              home
             </i>
           </a>
         </li>
