@@ -36,3 +36,12 @@
         }
     }
 }
+.brand-maps-container{
+    min-height:150px;
+    margin-top:30px;
+    #map{
+        border: 0.5px solid #efefef;
+        border-radius: 10px!important;
+    }
+    
+}

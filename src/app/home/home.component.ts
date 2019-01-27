@@ -38,11 +38,18 @@ import { DataShareService } from '../shared/services/data-share.service';
 
       <div class="row entreprises-row">
 
-        <div class="col-lg-4 company-wrapper" *ngFor="let item of  dataJson | filterData: queryString : 'officialName' | slice:0:itemsNb; let i = index">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 company-wrapper" *ngFor="let item of  dataJson | filterData: queryString : 'officialName' | slice:0:itemsNb; let i = index">
           <div class="card" style="width: 18rem;" >
-            <img src="{{item.profilePictureUrl}}" class="card-img-top" alt="{{item.officialName}}">
+            <div class="item-img-wrapper">
+              <img src="{{item.profilePictureUrl}}" class="card-img-top" alt="{{item.officialName}}">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">{{item.officialName}}</h5>
+              <h5 class="card-title" *ngIf = "item.shortOfficialName">
+                {{item.shortOfficialName}}
+              </h5>
+              <h5 class="card-title" *ngIf = "item.officialName && !item.shortOfficialName">
+                {{item.officialName}}
+              </h5>
               <a [routerLink]="['/entreprise', item.companyId]" id={{i}} class="btn">
                 <i class="material-icons">
                   play_circle_filled
@@ -63,6 +70,7 @@ import { DataShareService } from '../shared/services/data-share.service';
 export class HomeComponent implements OnInit {
 
   public dataJson:any[];
+  public sharedData:any[];
   public total:number;
   public items:any[];
   public itemsNb:number;
@@ -70,6 +78,7 @@ export class HomeComponent implements OnInit {
   constructor( private _dataService:ApiService, private _shareData:DataShareService ) { }
 
   ngOnInit() {
+
     this.itemsNb = 10;
     this.getData();
 
@@ -82,6 +91,7 @@ export class HomeComponent implements OnInit {
         this.dataJson = Object.values(data);
         this.total = this.dataJson[0];  
         this.dataJson = this.dataJson[1];
+        this.setItem (this.dataJson);
         this.shareItems (this.dataJson);
       },
       err => console.error(err),
@@ -90,23 +100,37 @@ export class HomeComponent implements OnInit {
 
   }
 
-  shareItems(dataJson:any[]) {
+  shareItems(data:any[]) {
     
-    this.dataJson = dataJson;
     this._shareData.storage = this.dataJson;
 
   }
 
-  showMore(itemsNb:number):number {
+  showMore(itemtsNb:number):number {
     
     return this.itemsNb = 20;
 
   }
 
-  showLess(itemsNb:number) {
+  showLess(itemsNb:number): number {
     
     return this.itemsNb = 10;
 
+  }
+
+  setItem (dataJson:any[]):any[] {
+    
+    let tronc:string = "...";
+    let limit:number = 20;
+    for (let i in this.dataJson){
+      let title = this.dataJson[i].officialName;
+      let titleLength = title.length;
+      if (titleLength > limit) {
+        title = title.substr(0,16)
+        this.dataJson[i].shortOfficialName = title.concat("", tronc);
+      }
+    }
+    return this.dataJson
   }
 
 }

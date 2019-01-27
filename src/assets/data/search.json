@@ -12,6 +12,10 @@
         "city": "MARCY L ETOILE",
         "secondLevelId": "FR-69"
       },
+      "cordinates": {
+        "lat": 45.781366,
+        "lng":4.705596000000014 
+      },
       "profilePictureUrl": "https://kolinkis.com/wp-content/uploads/2018/07/logo-biomerieux-1-300x300.jpeg",
       "data": {
         "revenue": 98565,
@@ -31,6 +35,10 @@
       "address": {
         "city": "PARIS",
         "secondLevelId": "FR-75"
+      },
+      "cordinates": {
+        "lat": 48.856614,
+        "lng":2.3522219000000177
       },
       "profilePictureUrl": "http://pbs.twimg.com/profile_images/1007277104067735552/16EQz5tn.jpg",
       "data": {
@@ -52,6 +60,10 @@
         "city": "PARIS",
         "secondLevelId": "FR-75"
       },
+      "cordinates": {
+        "lat": 48.856614,
+        "lng":2.3522219000000177
+      },
       "profilePictureUrl": "http://media.energie-industrie.com/Logosociete/logo_PONTICELLI_613778.gif",
       "data": {
         "revenue": 984156,
@@ -71,6 +83,10 @@
       "address": {
         "city": "PARIS",
         "secondLevelId": "FR-75"
+      },
+      "cordinates": {
+        "lat": 48.856614,
+        "lng":2.3522219000000177
       },
       "profilePictureUrl": "http://pbs.twimg.com/profile_images/809060301920419840/xELXZXtY.jpg",
       "data": {
@@ -92,6 +108,10 @@
         "city": "PARIS",
         "secondLevelId": "FR-75"
       },
+      "cordinates": {
+        "lat": 48.856614,
+        "lng":2.3522219000000177
+      },
       "profilePictureUrl": "http://pbs.twimg.com/profile_images/906097841109643264/g-GaSvnA.jpg",
       "data": {
         "revenue": 891654,
@@ -111,6 +131,10 @@
       "address": {
         "city": "PARIS",
         "secondLevelId": "FR-75"
+      },
+      "cordinates": {
+        "lat": 48.856614,
+        "lng":2.3522219000000177
       },
       "profilePictureUrl": "https://d2ojpxxtu63wzl.cloudfront.net/static/66b2f6112fbe739c088acbbbbe17d210_4a48fdc0989559ab07abc1503048894bf86e8fed572dc26b886934d5034aaf2e",
       "data": {
@@ -132,6 +156,10 @@
         "city": "SENLIS",
         "secondLevelId": "FR-60"
       },
+      "cordinates": {
+        "lat": 48.911856,
+        "lng":2.3337639999999737
+      },
       "profilePictureUrl": "https://static.electroguide.com/wp-content/uploads/2018/09/logo-electrolux-marque.jpg",
       "data": {
         "revenue": 5614645,
@@ -152,10 +180,15 @@
         "city": "LABEGE",
         "secondLevelId": "FR-31"
       },
+      "cordinates": {
+        "lat": 48.856614,
+        "lng":2.3522219000000177
+      },
       "profilePictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXvHvmXXwO-mCmiYbEqoxJaEyq_xi5t0QNy7IaQleXcl_p9aiOpQ",
       "data": {
         "revenue": 864563,
         "employees": 2406
+
       },
       "companyId": "FR-404191447",
       "description": "Le groupe ALTEN s'est construit depuis 30 ans autour du métier de l'ingénieur, et en premier lieu sur l'expertise dans les métiers de l'étude et de la conception. C'est donc naturellement que nos consultants ont démontré pour le secteur nucléaire leur excellence dans la conception des réacteurs EPR, et dans le développement des futurs projets EPR2.",
@@ -171,6 +204,10 @@
       "address": {
         "city": "PARIS",
         "secondLevelId": "FR-75"
+      },
+      "cordinates": {
+        "lat": 48.856614,
+        "lng":2.3522219000000177
       },
       "profilePictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVw0NYACAIQXr6W1CMKo9GN2Vy0eWPzNNkC45iQc1QfIOWETUM",
       "data": {
@@ -192,6 +229,10 @@
         "city": "ROISSY EN FRANCE",
         "secondLevelId": "FR-95"
       },
+      "cordinates": {
+        "lat": 49.00363,
+        "lng": 2.5169779999999946
+      },
       "profilePictureUrl": "https://pbs.twimg.com/profile_images/1067710206522650625/av9Sx8IT_400x400.jpg",
       "data": {
         "revenue": 156748,
@@ -211,6 +252,10 @@
       "address": {
         "city": "PUTEAUX",
         "secondLevelId": "FR-92"
+      },
+      "cordinates": {
+        "lat": 48.88474799999999,
+        "lng": 2.2396400000000085
       },
       "profilePictureUrl": "https://rm-core-production.s3.amazonaws.com/logos/3232/large_Kelly_Services.PNG",
       "data": {
@@ -232,6 +277,10 @@
         "city": "CARQUEFOU",
         "secondLevelId": "FR-44"
       },
+      "cordinates": {
+        "lat": 47.29624099999999,
+        "lng": -1.4868119999999863
+      },
       "profilePictureUrl": "https://www.whoswho.fr/usr/w/M/H/lrg_Sercel.gif",
       "data": {
         "revenue": 346856541940,
@@ -251,6 +300,10 @@
       "address": {
         "city": "ALBI",
         "secondLevelId": "FR-81"
+      },
+      "cordinates": {
+        "lat": 43.9250853,
+        "lng": 2.1486413000000084
       },
       "profilePictureUrl": "https://www.cpdp.org/sites/default/files/2018-01/Logo-stela.jpg",
       "data": {
@@ -272,7 +325,11 @@
         "city": "IVRY SUR SEINE",
         "secondLevelId": "FR-94"
       },
-      "profilePictureUrl": null,
+      "cordinates": {
+        "lat": 48.813055,
+        "lng": 2.3882200000000466
+      },
+      "profilePictureUrl": "https://www.business-directory.fr/wp-content/uploads/2018/02/logo-e.leclerc.png",
       "data": {
         "revenue": 150,
         "employees": 10
@@ -288,8 +345,12 @@
         "label": "Fabrication d'appareils d'éclairage électrique"
       },
       "officialName": "MAQUET SAS",
-      "address": null,
-      "profilePictureUrl": null,
+      "address": "Paris",
+      "cordinates": {
+        "lat": 48.856614,
+        "lng":2.3522219000000177
+      },
+      "profilePictureUrl": "https://www.maquet.com/contentassets/ac82fdc30e044a409fbd53d70e2d2655/since-1883-b.jpg",
       "data": {
         "revenue": 126984,
         "employees": 78
@@ -309,7 +370,11 @@
         "city": "RUNGIS",
         "secondLevelId": "FR-94"
       },
-      "profilePictureUrl": "http://pbs.twimg.com/profile_images/684767095507271680/CKFZtgvF.png",
+      "cordinates": {
+        "lat": 48.749358,
+        "lng":2.3499360000000706
+      },
+      "profilePictureUrl": "https://www.yetigel.com/images/systeme_u_logo.png",
       "data": {
         "revenue": 56940,
         "employees": 32
@@ -329,7 +394,11 @@
         "city": "AIMARGUES",
         "secondLevelId": "FR-30"
       },
-      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/13174103_618259444998036_3360697735046354517_n.png?_nc_cat=0&oh=b1fa2950b71c6aa6b6a5d20ce96be659&oe=5C3B9C94",
+      "cordinates": {
+        "lat": 43.6850809,
+        "lng": 4.2088489999999865
+      },
+      "profilePictureUrl": "data:image/png;base64,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",
       "data": {
         "revenue": 3468940,
         "employees": 84
@@ -349,7 +418,11 @@
         "city": "BEYCHAC ET CAILLAU",
         "secondLevelId": "FR-33"
       },
-      "profilePictureUrl": "http://pbs.twimg.com/profile_images/918394626201018368/TV6v6Njf.jpg",
+      "cordinates": {
+        "lat": 44.87333539999999,
+        "lng": -0.3701275999999325
+      },
+      "profilePictureUrl": "https://www.myfranceboissons.fr/img/login/selection_vignes_terroirs.jpg",
       "data": {
         "revenue": 346856940,
         "employees": 143
@@ -369,7 +442,11 @@
         "city": "ST OUEN",
         "secondLevelId": "FR-93"
       },
-      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/11229765_873842952698105_479045590626038757_n.png?_nc_cat=0&oh=a6a867abe65ddf323bfa6af7d0cc32f7&oe=5B767851",
+      "cordinates":{
+        "lat":48.911856,
+        "lng":2.3337639999999737
+      },
+      "profilePictureUrl": "data:image/jpeg;base64,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",
       "data": {
         "revenue": 15643,
         "employees": 3
@@ -389,7 +466,11 @@
         "city": "ELOYES",
         "secondLevelId": "FR-88"
       },
-      "profilePictureUrl": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/14457534_1209239439119157_7294808617016880892_n.png?_nc_cat=0&oh=cef8526cd0e2f47dace2c4cd5f4915b7&oe=5B58DD75",
+      "cordinates": {
+        "lat": 48.092185,
+        "lng": 6.610439000000042
+      },
+      "profilePictureUrl": "https://content.presspage.com/uploads/1960/1920_valeur.png?10000",
       "data": {
         "revenue": 346856940,
         "employees": 78

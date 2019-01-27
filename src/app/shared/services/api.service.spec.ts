@@ -26,6 +26,10 @@ describe('ApiService', () => {
     httpMock = TestBed.get(HttpTestingController);
   }));
 
+  it('should be created', inject([ApiService], (service: ApiService) => {
+    expect(service).toBeTruthy();
+  }));
+
   it('getData() should http GET data', () => {
     const data = [];//Data
     dataService.getData().subscribe((res) => {

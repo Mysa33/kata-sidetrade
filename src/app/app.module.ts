@@ -11,6 +11,7 @@ import { FilterDataPipe } from './shared/pipes/filter-data.pipe';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { EntrepriseComponent } from './entreprise/entreprise.component';
+import { MapsComponent } from './widgets/maps/maps.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EntrepriseComponent } from './entreprise/entreprise.component';
     FilterDataPipe,
     NavComponent,
     HomeComponent,
-    EntrepriseComponent
+    EntrepriseComponent,
+    MapsComponent
   ],
   imports: [
     BrowserModule,

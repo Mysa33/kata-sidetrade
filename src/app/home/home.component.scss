@@ -35,8 +35,12 @@
     .entreprises-row{
         .card{
             margin-bottom : 15px!important;
-            img{
-                border-bottom: 1px solid #efefef;
+            div.item-img-wrapper{
+                height:286px;
+                overflow: hidden;
+                img{
+                    border-bottom: 1px solid #efefef;
+                }
             }
             .card-body {
                 h5.card-title{

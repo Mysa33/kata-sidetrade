@@ -11,7 +11,9 @@ export class ApiService {
   constructor( private _http:HttpClient ) { }
   
   getData() {
+
     return this._http.get(this.url);
+
   }
 
 }
