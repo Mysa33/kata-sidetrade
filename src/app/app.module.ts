@@ -12,6 +12,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { EntrepriseComponent } from './entreprise/entreprise.component';
 import { MapsComponent } from './widgets/maps/maps.component';
+import { TabsComponent } from './widgets/tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MapsComponent } from './widgets/maps/maps.component';
     NavComponent,
     HomeComponent,
     EntrepriseComponent,
-    MapsComponent
+    MapsComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,

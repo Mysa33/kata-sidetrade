@@ -42,6 +42,7 @@ import { DataShareService } from '../shared/services/data-share.service';
             <div class="col-lg-12 company-description">
               <span class="company-title">Description : </span>
               <p>{{item.description}}</p>
+              <app-tabs [itemInfos] = "item"></app-tabs>
             </div>
 
           </div>

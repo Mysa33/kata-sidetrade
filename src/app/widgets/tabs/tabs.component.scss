@@ -1,0 +1,16 @@
+.nav-tabs{
+
+    .active{
+        a{
+            border-color: #dee2e6 #dee2e6 #fff!important;
+        }
+    }
+    .nav-item{
+        a{
+            border-color:#fff;
+        }
+    }
+}
+.nav-tabs:hover{
+    cursor:pointer;
+}

@@ -43,6 +43,7 @@ import { DataShareService } from '../shared/services/data-share.service';
             <div class="item-img-wrapper">
               <img src="{{item.profilePictureUrl}}" class="card-img-top" alt="{{item.officialName}}">
             </div>
+            <hr>
             <div class="card-body">
               <h5 class="card-title" *ngIf = "item.shortOfficialName">
                 {{item.shortOfficialName}}
