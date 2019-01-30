@@ -1,10 +1,12 @@
 import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
 
+import { TabsService } from '../../shared/services/tabs.service';
+
 @Component({
   selector: 'app-tabs',
   template: `
     <ul id="tabsNav" class="nav nav-tabs">
-      <li id ="tab_{{i}}" class="nav-item tabs-nav-item" *ngFor = "let item of tabsItems; let i = index" (click) = "toggleTab(i);">
+      <li id ="tab_{{i}}" class="nav-item tabs-nav-item" *ngFor = "let item of tabsItems; let i = index" (click) = "toggleTabNav(i);">
         <a class="nav-link">
           <h6>
             {{item.title}} : 
@@ -12,12 +14,23 @@ import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
         </a>
       </li>
     </ul>
-    <div class="col-lg-12">
+    <div id="pannelsWrapper" class="col-lg-12">
     
-      <div class="" *ngFor= "let pannel of tabsItems; let j = index">
-        <p>
-          {{pannel.data}}
-        </p>
+      <div class="pannel-wrapper" *ngFor= "let pannel of tabsItems; let j = index" id="pannel_{{j}}">
+        <article>
+          <p>
+            <strong>{{tabsItems[j].title}} :</strong>
+          </p>
+          <p *ngIf="j == 0">
+            {{tabsItems[j].pannelData}} 
+          </p>
+          <p *ngIf="j == 1">
+           Employees : {{pannel.pannelData.employees}} 
+          </p>
+          <p *ngIf="j == 1">
+            Revenues : {{pannel.pannelData.revenues}} 
+          </p>
+        </article>
       </div>
     
     </div>
@@ -30,7 +43,7 @@ export class TabsComponent implements OnInit {
   public tabsItems:any[];
   public hiddenTabs:any[];
 
-  constructor() { }
+  constructor(private _tabsService:TabsService) { }
 
   ngOnInit() {
 
@@ -44,47 +57,67 @@ export class TabsComponent implements OnInit {
 
   }
 
-  setTabs (itemInfos:any, tabsItems:object):object {
-    
-    this.tabsItems = [
-      {
-        "title":"description",
-        "data":this.itemInfos.description,
-      },
-      {
-        "title":"data",
-        "data":this.itemInfos.data
-      }
-    ];
-    return this.tabsItems;
-    
+  initTabs ():object {
+
+    this._tabsService.initNav ();
+    this._tabsService.initPannels ();
+    var activeTabsElmnts:object = {
+      "nav":this._tabsService.initNav (),
+      "pannel":this._tabsService.initPannels ()
+    };
+    return activeTabsElmnts;
+
   }
 
-  toggleTab (i:number):object {
+  toggleTabNav (i:number):object {
     
-    var idsArray:any[] = [];
-    var hiddenTabs:any[] = [];
     var elmntId = "tab_" + i;
     var parentNode = document.getElementById("tabsNav");
     var elmnt:any = document.getElementById(elmntId);
     var elmnts = parentNode.querySelectorAll('li');
-    for (var i = 0; i < elmnts.length; i++) {
+    for (let i = 0; i < elmnts.length; i++) {
       elmnts[i].classList.remove('active')
     }
     elmnt.classList.add("active");
+    this.toggleTabPannel (i, this.tabsItems);
     return elmnt;
+
   }
 
-  initTabs ():object {
+  toggleTabPannel (i:number, tabsItems:any[]):object {
+    
+    var parentNode = document.getElementById("pannelsWrapper");
+    var pannels = parentNode.querySelectorAll('div.pannel-wrapper');
+    var elmntId = "pannel_" + i;
+    var pannel:any = document.getElementById(elmntId);
+    for (let k = 0; k < pannels.length; k++) {
+      pannels[k].classList.remove('visible-pannel');
+      pannels[k].classList.add('hidden-pannel');
+    }
+    pannel.classList.remove('hidden-pannel');
+    pannel.classList.add('toto-pannel');
+    return pannel;
 
-    var parentNode:any;
-    var elmnts:any;
-    var activeElmnt:any;
-    parentNode = document.getElementById('tabsNav');
-    elmnts = parentNode.getElementsByClassName("tabs-nav-item");
-    activeElmnt = document.querySelector("#tab_0");
-    activeElmnt.classList.add("active");
-    return activeElmnt;
+  }
+
+  setTabs (itemInfos:any, tabsItems:object):object {
+    console.log("this.itemInfos", this.itemInfos);
+    this.tabsItems = [
+      {
+        "title":"description",
+        "pannelData":this.itemInfos.description
+      },
+      {
+        "title":"data",
+        "pannelData":{
+          "revenues":this.itemInfos.data.revenue,
+          "employees":this.itemInfos.data.employees
+        }
+      }
+    ];
+    console.log("this.tabsItems", this.tabsItems);
+    return this.tabsItems;
+
   }
   
 }
