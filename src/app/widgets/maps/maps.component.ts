@@ -47,7 +47,7 @@ export class MapsComponent implements OnInit {
       '</div>'+
       '</div>'
     ;
-    var map = new google.maps.Map(document.getElementById('map'), {zoom: 6, center: address, mapTypeControl: false, streetViewControl: false});
+    var map = new google.maps.Map(document.getElementById('map'), {zoom: 11, center: address, mapTypeControl: false, streetViewControl: false});
     var marker = new google.maps.Marker({position: address, map: map});
     var infowindow = new google.maps.InfoWindow({
       content: template
