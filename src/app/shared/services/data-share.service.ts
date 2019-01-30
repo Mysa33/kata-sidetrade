@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class DataShareService {
 
-  public storage: any;
+  public storage: any[] = [];
   
   constructor() { }
 

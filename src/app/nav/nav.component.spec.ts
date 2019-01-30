@@ -51,32 +51,32 @@ describe('NavComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should not contain div tag', fakeAsync(() => {
+  it('should not render div tag', fakeAsync(() => {
     expect(compiled.querySelector('div')).toBeFalsy();
   }));
 
-  it('should contain nav tag', fakeAsync(() => {
+  it('should render nav tag', fakeAsync(() => {
     fixture.detectChanges();
     expect(compiled.querySelector('nav')).toBeTruthy();
   }));
 
-  it('should contain ul tag', fakeAsync(() => {
+  it('should render ul tag', fakeAsync(() => {
     expect(compiled.querySelector('ul')).toBeTruthy();
   }));
 
-  it('should contain li tag', fakeAsync(() => {
+  it('should render li tag', fakeAsync(() => {
     expect(compiled.querySelector('ul')).toBeTruthy();
   }));
 
-  it('should contain a tag', fakeAsync(() => {
+  it('should render a tag', fakeAsync(() => {
     expect(compiled.querySelector('a')).toBeTruthy();
   }));
 
-  it('should contain 2 li tag', fakeAsync(() => {
+  it('should render 2 li tag', fakeAsync(() => {
     expect(compiled.querySelectorAll('li').length).toEqual(2);
   }));
 
-  it('should contain 2 a tag', fakeAsync(() => {
+  it('should render 2 a tag', fakeAsync(() => {
     fixture.detectChanges();
     expect(compiled.querySelectorAll('a').length).toEqual(2);
   }));

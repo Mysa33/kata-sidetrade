@@ -40,8 +40,8 @@ import { TabsService } from '../../shared/services/tabs.service';
 export class TabsComponent implements OnInit {
 
   @Input () itemInfos:any;
-  public tabsItems:any[];
-  public hiddenTabs:any[];
+  public tabsItems:any[] = [];
+  public hiddenTabs:any[] = [];
 
   constructor(private _tabsService:TabsService) { }
 
@@ -95,13 +95,12 @@ export class TabsComponent implements OnInit {
       pannels[k].classList.add('hidden-pannel');
     }
     pannel.classList.remove('hidden-pannel');
-    pannel.classList.add('toto-pannel');
     return pannel;
 
   }
 
   setTabs (itemInfos:any, tabsItems:object):object {
-    console.log("this.itemInfos", this.itemInfos);
+    console.log("item info :", itemInfos);
     this.tabsItems = [
       {
         "title":"description",
@@ -115,7 +114,6 @@ export class TabsComponent implements OnInit {
         }
       }
     ];
-    console.log("this.tabsItems", this.tabsItems);
     return this.tabsItems;
 
   }

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
 
 declare const google: any;
 @Component({
@@ -19,6 +19,9 @@ export class MapsComponent implements OnInit {
   @Input () itemInfos:any;
 
   ngOnInit() {
+  }
+  
+  ngAfterViewInit() {
 
     this._initMap(this.loc, this.itemInfos);
 
@@ -26,10 +29,11 @@ export class MapsComponent implements OnInit {
 
   private _initMap(loc:any, itemInfos:any) {
     
+    this.itemInfos = itemInfos;
     this.loc = loc;
-    var imgAttr = itemInfos.officialName;
-    var imgSrc = itemInfos.profilePictureUrl;
-    var city = itemInfos.address.city;
+    var imgAttr = this.itemInfos.officialName;
+    var imgSrc = this.itemInfos.profilePictureUrl;
+    var city = this.itemInfos.address.city;
     var latitude = parseFloat(this.loc.lat);
     var longitude = parseFloat(this.loc.lng);
     var address = {lat: latitude, lng: longitude};
