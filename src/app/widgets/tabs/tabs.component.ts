@@ -100,7 +100,7 @@ export class TabsComponent implements OnInit {
   }
 
   setTabs (itemInfos:any, tabsItems:object):object {
-    console.log("item info :", itemInfos);
+    
     this.tabsItems = [
       {
         "title":"description",
