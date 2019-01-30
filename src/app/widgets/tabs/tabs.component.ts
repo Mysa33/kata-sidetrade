@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-tabs',
@@ -12,6 +12,15 @@ import { Component, OnInit, Input } from '@angular/core';
         </a>
       </li>
     </ul>
+    <div class="col-lg-12">
+    
+      <div class="" *ngFor= "let pannel of tabsItems; let j = index">
+        <p>
+          {{pannel.data}}
+        </p>
+      </div>
+    
+    </div>
   `,
   styleUrls: ['./tabs.component.scss']
 })
@@ -29,20 +38,26 @@ export class TabsComponent implements OnInit {
 
   }
 
+  ngAfterViewInit() {
+
+    this.initTabs ();
+
+  }
+
   setTabs (itemInfos:any, tabsItems:object):object {
     
     this.tabsItems = [
       {
         "title":"description",
-        "data":this.itemInfos.description
+        "data":this.itemInfos.description,
       },
       {
         "title":"data",
         "data":this.itemInfos.data
       }
     ];
-    this._initTabs ();
     return this.tabsItems;
+    
   }
 
   toggleTab (i:number):object {
@@ -57,20 +72,19 @@ export class TabsComponent implements OnInit {
       elmnts[i].classList.remove('active')
     }
     elmnt.classList.add("active");
-    return;
+    return elmnt;
   }
 
-  private _initTabs ():object {
+  initTabs ():object {
 
     var parentNode:any;
     var elmnts:any;
     var activeElmnt:any;
     parentNode = document.getElementById('tabsNav');
     elmnts = parentNode.getElementsByClassName("tabs-nav-item");
-    activeElmnt = document.getElementById("tab_0");
-    console.log("activeElmnt:", activeElmnt);
-    //activeElmnt.classList.add("active");
-    return;
+    activeElmnt = document.querySelector("#tab_0");
+    activeElmnt.classList.add("active");
+    return activeElmnt;
   }
   
 }
