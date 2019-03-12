@@ -5,7 +5,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { HttpTestingController, HttpClientTestingModule } from '@angular/common/http/testing';
-import { MockBackend } from '@angular/http/testing';
+//import { MockBackend } from '@angular/http/testing';
 
 import { HomeComponent } from './home.component';
 import { EntrepriseComponent } from '../entreprise/entreprise.component';
